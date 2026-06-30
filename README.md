@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/logo.png" width="120">
+  <img src="img/image.png" width="120">
 </p>
 
 <h1 align="center">Cloud Image Vault</h1>
