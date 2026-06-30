@@ -5,7 +5,7 @@
 <h1 align="center">Cloud Image Vault</h1>
 
 <p align="center">
-Kumpulan link download Cloud Image resmi dari berbagai distro Linux — Ubuntu, Debian, AlmaLinux, Rocky Linux, dan lainnya — dalam satu tempat yang rapi.
+Vault link Download Cloud Image and ISO files resmi dari berbagai distro Linux — Ubuntu, Debian, AlmaLinux, Rocky Linux, dan lainnya.
 </p>
 
 <p align="center">
