@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/image.png" width="120">
+  <img src="img/logo.png" width="120">
 </p>
 
 <h1 align="center">Cloud Image Vault</h1>
@@ -16,8 +16,6 @@ Kumpulan link download Cloud Image resmi dari berbagai distro Linux — Ubuntu, 
 
 ![Stack](https://img.shields.io/badge/Cloud_Image_Vault-Multi_OS_Image_List-A855F7?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-![Format](https://img.shields.io/badge/Format-qcow2_%2F_img-2496ED?style=flat-square&logo=qemu&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Actively_Updated-D97706?style=flat-square)
 
 </p>
 
@@ -35,19 +33,6 @@ Bukan mirror, bukan re-upload — semua link mengarah langsung ke sumber resmi m
 
 * Link download Cloud Image dari berbagai distro, dikelompokkan per OS
 * Format `.img` / `.qcow2`, siap pakai buat cloud-init / KVM / Proxmox / OpenStack
-* Tiap distro punya bagian (header) sendiri biar gak campur aduk
-* Update setiap ada rilis baru atau build terbaru
-* Format Markdown simpel, gampang dibaca di GitHub
-
----
-
-## 🎯 Project Goals
-
-* Jadi satu tempat referensi link download Cloud Image dari berbagai OS
-* Memudahkan proses provisioning VM tanpa harus googling satu-satu
-* Selalu update mengikuti rilis terbaru tiap distro
-* Belajar terus, nambah distro baru kalau ada yang dibutuhkan
-
 ---
 
 ## 📦 Daftar Link Download
@@ -83,11 +68,72 @@ Bukan mirror, bukan re-upload — semua link mengarah langsung ke sumber resmi m
 |---|---|---|
 | 9 | GenericCloud Base Latest (qcow2) | [Rocky-9-GenericCloud-Base.latest.x86_64.qcow2](https://dl.rockylinux.org/pub/rocky/9/images/x86_64/Rocky-9-GenericCloud-Base.latest.x86_64.qcow2) |
 
-### ⚪ Lainnya
+
+---
+
+## 💿 Daftar Link Download — ISO Installer
+
+> Ini link buat **ISO installer/live image**, beda sama Cloud Image di atas. Cocok buat install langsung ke PC/laptop, bikin bootable USB, atau pasang di VM lewat ISO biasa. Semua link mengarah ke halaman/server resmi masing-masing OS.
+
+### 🪟 Windows
 
 | OS | Versi | Link Download |
 |---|---|---|
-| _(tambahkan distro lain di sini, contoh: Fedora, openSUSE, Oracle Linux, dll)_ | — | _(letakkan link di sini)_ |
+| Windows 10 | Semua edisi | [Official Download Page](https://www.microsoft.com/software-download/windows10) |
+| Windows 11 | Semua edisi | [Official Download Page](https://www.microsoft.com/software-download/windows11) |
+
+> Microsoft tidak menyediakan direct-link statis untuk ISO Windows — kamu harus pilih edisi & bahasa dulu di halaman resminya, baru link download-nya muncul (berlaku sementara). Ini demi keamanan, jadi link di atas memang halaman resmi pemilihannya, bukan link mati.
+
+### 🟠 Ubuntu
+
+| Tipe | Versi | Link Download |
+|---|---|---|
+| Desktop | Semua versi (LTS & terbaru) | [ubuntu.com/download/desktop](https://ubuntu.com/download/desktop) |
+| Server | Semua versi (LTS & terbaru) | [ubuntu.com/download/server](https://ubuntu.com/download/server) |
+| Direktori rilis 24.04 LTS | Noble Numbat | [releases.ubuntu.com/24.04](https://releases.ubuntu.com/24.04/) |
+| Direktori rilis 22.04 LTS | Jammy Jellyfish | [releases.ubuntu.com/22.04](https://releases.ubuntu.com/22.04/) |
+
+### 🔴 Debian
+
+| Tipe | Link Download |
+|---|---|
+| Halaman resmi semua cara install | [debian.org/distrib](https://www.debian.org/distrib/) |
+| Netinst ISO (stable terbaru, amd64) | [cdimage.debian.org/.../iso-cd](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/) |
+
+### 🕵️ Kali Linux
+
+| Tipe | Link Download |
+|---|---|
+| Halaman resmi (Installer / Live / VM / ARM) | [kali.org/get-kali](https://www.kali.org/get-kali/#kali-installer-images) |
+| Direktori image rilis terbaru | [cdimage.kali.org/current](https://cdimage.kali.org/current/) |
+
+### 🎩 RHEL & Child
+
+| OS | Link Download |
+|---|---|
+| Red Hat Enterprise Linux (RHEL) | [access.redhat.com/downloads](https://access.redhat.com/downloads/content/rhel) _(perlu akun Red Hat, gratis untuk developer)_ |
+| AlmaLinux | [almalinux.org/get-almalinux](https://almalinux.org/get-almalinux/) |
+| Rocky Linux | [rockylinux.org/download](https://rockylinux.org/download) |
+| CentOS Stream | [centos.org/centos-stream](https://www.centos.org/centos-stream/) |
+| Fedora Workstation | [fedoraproject.org/workstation/download](https://fedoraproject.org/workstation/download) |
+
+### 🏹 Arch & Child
+
+| OS | Link Download |
+|---|---|
+| Arch Linux | [archlinux.org/download](https://archlinux.org/download/) |
+| Manjaro | [manjaro.org/download](https://manjaro.org/download/) |
+| EndeavourOS | [endeavouros.com/latest-release](https://endeavouros.com/latest-release/) |
+
+### 🦎 Other Distro
+
+| OS | Link Download |
+|---|---|
+| Linux Mint | [linuxmint.com/download.php](https://linuxmint.com/download.php) |
+| Pop!_OS | [pop.system76.com](https://pop.system76.com/) |
+| Zorin OS | [zorin.com/os/download](https://zorin.com/os/download/) |
+| openSUSE Leap | [get.opensuse.org/leap](https://get.opensuse.org/leap/) |
+| openSUSE Tumbleweed | [get.opensuse.org/tumbleweed](https://get.opensuse.org/tumbleweed/) |
 
 ---
 
@@ -97,6 +143,7 @@ Bukan mirror, bukan re-upload — semua link mengarah langsung ke sumber resmi m
 * **Build tanggal (snapshot)** — Image dari tanggal build tertentu, link-nya fix dan gak berubah, cocok kalau butuh versi yang konsisten/reproducible.
 * **LTS** — Versi *Long Term Support*, paling stabil, dapat dukungan keamanan jangka panjang. Cocok buat server production.
 * **GenericCloud** — Image cloud universal yang bisa dipakai di hampir semua platform virtualisasi (KVM, Proxmox, OpenStack, dll) lewat cloud-init.
+* **ISO Installer** — File instalasi biasa (`.iso`), dipakai untuk install OS langsung ke PC/laptop/server fisik, bikin bootable USB, atau pasang VM secara manual (bukan lewat cloud-init).
 
 ---
 
